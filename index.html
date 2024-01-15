@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="all">
+        <h1 class="h11">TODO</h1>
+        <button class="btnADD">+</button>
+    </div>
+    <div class="big">
+        <div style="margin-left: 100px;">
+            <div class="simpl">
+                <p style="width: 30px; height: 30px; background-color: blueviolet; border-radius: 40px; margin-top: 30px;"></p>
+                <h1>work</h1>
+            </div>
+            <div class="simpl">
+                <p style="width: 30px; height: 30px; background-color: rgb(50, 230, 240); border-radius: 40px; margin-top: 30px;"></p>
+                <h1>study</h1>
+            </div>
+            <div class="simpl">
+                <p style="width: 30px; height: 30px; background-color: rgb(255, 66, 249); border-radius: 40px; margin-top: 30px;"></p>
+                <h1>entertainment</h1>
+            </div>
+            <div class="simpl">
+                <p style="width: 30px; height: 30px; background-color: rgb(32, 236, 255); border-radius: 40px; margin-top: 30px;"></p>
+                <h1>family</h1>
+            </div>
+            <div style="display: flex;" class="simpl">
+                <!-- <p style="width: 20px; height: 20px; background-color: rgb(255, 255, 255);border: 2px solid black; margin-top: 30px;"></p> -->
+                <input type="checkbox" name="" id="">
+                <h2 style="margin-top: 26px;">Hide done task</h2>
+            </div>
+        </div>
+        <div class="box"></div>
+    </div>
+    <dialog class="dialogADD">
+        <div style="display: flex;" class="x">
+            <h1 class="h2">TASK</h1>
+            <button  class="xx">X</button>
+        </div>
+        <label for="for"  class="leb">Title</label><br><br>
+        <input type="text" class="inp" id="for"   placeholder="Placeholder text">
+        <br><br>
+        <label for="form" class="leb1">Description</label><br><br>
+        <input type="text"  id="form" class="inp1" placeholder="Placeholder text">
+        <br><br>
+        <div class="btnn">
+            <button class="btnSAVE">SAVE</button>
+            <button class="btnCANCEL">CANCEL</button>
+        </div>
+    </dialog>
+    <dialog  class="dialogEdit">
+        <input type="text" class="inp55" /><br>
+        <input type="text" class="inp66" /><br>
+        <div style="display: flex; width: 100%; gap: 20px; padding-top: 15px; margin: auto;" class="">
+        <button style="width: 18%;" class="btnnEdit">Edit</button><br>
+        <button style="width: 20%" class="closeEdit">closeEdit</button>
+        </div>
+  </dialog>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.h11{
+    margin-left: 100px;
+    font-size: 50px;
+}
+.btnADD{
+    margin-right: 100px;
+    font-size: 70px;
+    color: blueviolet;
+    border: none;
+    background-color: white ;
+}
+.simpl{
+    display: flex;
+    gap: 40px;
+}
+.h2{
+    /* color: lightseagreen; */
+    color: green;
+    font-weight: 500;
+}
+.big{
+    margin-top: 50px;
+    display: flex;
+}
+.x{
+    display: flex;
+    justify-content: space-around;
+}
+.xx{
+    border: none;
+    background-color: white;
+    font-size: 30px;
+}
+.leb{
+    font-size: 30px;
+    color: rgb(12, 36, 255);
+}
+.leb1{
+    font-size: 30px;
+}
+.inp{
+    width: 300px;
+    height: 30px;
+}
+.inp1{
+    width: 300px;
+    height: 30px;
+}
+.btnSAVE{
+    background-color: rgb(43, 0, 255);
+    width: 90px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btnCANCEL{
+    background-color: rgb(252, 252, 252);
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Барои елементои JS */
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 200px;
+}
+.content
+{
+    background-color: #fff9Df;
+    width: 45%;
+    border-radius: 20px;
+}
+.icons{
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    margin-bottom: 19px;
+}
+.name{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.balig{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.Edit{
+    width: 30px;
+    height: 30px;
+}
+.delate{
+    width: 30px;
+    height: 30px;
+}
+.block2{
+    display: flex;
+}
+.checkbox{
+    margin-left: 300px;
+}
+.btnnEdit{
+    color: green;
+}
+.chaked{
+    color: red;
+    text-decoration: line-through;
+}
+.inp55{
+    width: 280px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.inp66{
+    width: 280px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.dialogEdit{
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
